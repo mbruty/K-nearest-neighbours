@@ -6,10 +6,15 @@ This algorithm is inherently slow as it calculates the distance to every single 
 Whilst being inherently slow, with the data-set linked to later, it is fine. Splitting the data in to 70% training 30% test resulted in the whole iteration taking 0.96 seconds.
 ### Results:
 K : 12 | Iterations : 10,000 | 70 - 30 train-test split 
+
 Average time for one iteration to execute: 0.19 s
+
 Total time for 10000 iterations: 1857.39 s
+
 Average accuracy: 97.3%
+
 Average confidence: 100.0%
+
 ## The data
 This algorithm was tested on the [**Wisconsin Breast Cancer Data Set**](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Original%29)
 The data-set has been proven to work well with clustering algorithms. This algorithm had a 97% average accuracy over 5,000 iterations.
