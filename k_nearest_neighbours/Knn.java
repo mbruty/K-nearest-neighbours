@@ -26,9 +26,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
-//MIT License
-//
-//Copyright (c) [2020] [Michael Bruty]
 public class Knn
 {
     private double[][]data;
