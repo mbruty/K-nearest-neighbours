@@ -3,9 +3,13 @@
 The KNN Algorithm is a clustering algorithm used for classification. The algorithm calculates the euclidean distance to the other data-points within the training data. The results are then sorted and k closest points are chosen. The classifications of each k closest points are counted to see how many 'votes' each classification has. The classification that has the highest number of 'votes' is chosen. 
 
 This algorithm is inherently slow as it calculates the distance to every single point within the training data. There are faster means to cluster data - currently working on them too, so check my github and it might be there!
-Whilst being inherently slow, with the data-set linked to later, it is fine. Splitting the data in to 70% training 30% test resulted in the whole iteration taking 0.16 seconds.
-## How to use:
-Adding command line arguments soon; at the moment, just give the path to the Wisconsin data-set
+Whilst being inherently slow, with the data-set linked to later, it is fine. Splitting the data in to 70% training 30% test resulted in the whole iteration taking 0.96 seconds.
+### Results:
+K : 12 | Iterations : 10,000 | 70 - 30 train-test split 
+Average time for one iteration to execute: 0.19 s
+Total time for 10000 iterations: 1857.39 s
+Average accuracy: 97.3%
+Average confidence: 100.0%
 ## The data
 This algorithm was tested on the [**Wisconsin Breast Cancer Data Set**](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Original%29)
 The data-set has been proven to work well with clustering algorithms. This algorithm had a 97% average accuracy over 5,000 iterations.
